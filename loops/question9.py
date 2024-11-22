@@ -1,5 +1,12 @@
-a, b = 0, 1
-print("The first 10 Fibonacci numbers are : ")
-for num in range(10):
-    print(a, end="  ")
-    a, b = b, a + b
+a=0
+b=1
+c=0
+print("The first 10 Fibonacci numbers are :")
+print(a)
+print(b)
+for num in range(1,9):
+    c=a+b
+    a=b
+    b=c
+    print(c)
+    
